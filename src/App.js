@@ -1,14 +1,16 @@
 import React from "react";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
+import Feed from "./components/Feed";
 
 function App() {
   return (
-    <div>
-      <h1>Hello Twitter</h1>
+    <div className="app">
       {/* Sidebar */}
       <Sidebar />
+
       {/* Feed */}
+      <Feed />
       {/* Widgets */}
     </div>
   );
