@@ -1,5 +1,5 @@
 .feed {
-  flex: 0.4;
+  flex: 0.5;
   border-right: 1px solid var(--twitter-background);
   /* border: 1px solid red; */
   min-width: fit-content;
@@ -13,8 +13,9 @@
   top: 0;
   z-index: 100;
   border: 1px solid var(--twitter-background);
-  padding: 15px 20px;
+  /* padding: 15px 20px; */
   background-color: white;
+  padding-left: 10px;
 }
 
 .feed::-webkit-scrollbar {
