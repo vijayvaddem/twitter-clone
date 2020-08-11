@@ -1,10 +1,22 @@
 import React from "react";
 import "../css/Widgets.css";
+import {
+  TwitterTimelineEmbed,
+  TwitterShareButton,
+  TwitterTweetEmbed,
+} from "react-twitter-embed";
+import SearchIcon from "@material-ui/icons/Search";
 
 function Widgets() {
   return (
-    <div className="widget">
-      <h2>Widgets</h2>
+    <div className="widgets">
+      <div className="widgets_input">
+        <SearchIcon className="widgets_searchIcon" />
+        <input type="text" placeholder="Search Twitter" />
+      </div>
+      <div className="widgets__widgetContainer">
+        <h2>What's happening</h2>
+      </div>
     </div>
   );
 }
