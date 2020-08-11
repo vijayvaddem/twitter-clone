@@ -16,6 +16,12 @@ function Widgets() {
       </div>
       <div className="widgets__widgetContainer">
         <h2>What's happening</h2>
+        <TwitterTweetEmbed></TwitterTweetEmbed>
+        <TwitterTimelineEmbed
+          sourceType="profile"
+          screenName="cleverqazi"
+          options={{ height: 400 }}
+        />
       </div>
     </div>
   );
