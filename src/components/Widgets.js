@@ -19,7 +19,7 @@ function Widgets() {
         <TwitterTweetEmbed></TwitterTweetEmbed>
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="cleverqazi"
+          screenName="vijay_vaddem"
           options={{ height: 400 }}
         />
       </div>
