@@ -11,4 +11,18 @@ const firebaseConfig = {
   measurementId: "G-5DE3LKLQ5N",
 };
 
-const firebase = firebase.initializeApp(firebaseConfig);
+const firebaseConn = firebase.initializeApp(firebaseConfig);
+const db = firebaseConn.firestore();
+
+// db.collection("posts")
+//   .get()
+//   .then((response) => {
+//     response.docs.forEach((document) => {
+//       console.log("This-->", document.data());
+//     });
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   });
+
+export default db;
