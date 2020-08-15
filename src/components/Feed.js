@@ -26,9 +26,8 @@ function Feed() {
       {/* TweetBox */}
       <TweetBox />
 
-      {/* Post */}
-      {/* Post({ displayName, username, 
-        verified, text, image, avatar })  */}
+      {/* Posts */}
+
       {posts.map((post) => (
         <Post
           displayName={post.displayName}

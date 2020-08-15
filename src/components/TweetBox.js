@@ -15,6 +15,8 @@ export default function TweetBox() {
       username: "vijayk",
       text: tweetMessage,
     });
+
+    setTweetMessage("");
   };
 
   return (
