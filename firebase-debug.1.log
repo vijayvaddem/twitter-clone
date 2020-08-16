@@ -1,0 +1,243 @@
+[debug] [2020-08-16T08:13:09.010Z] ----------------------------------------------------------------------
+[debug] [2020-08-16T08:13:09.012Z] Command:       /Users/vaddv/.nvm/versions/node/v14.8.0/bin/node /Users/vaddv/.nvm/versions/node/v14.8.0/bin/firebase init
+[debug] [2020-08-16T08:13:09.013Z] CLI Version:   8.7.0
+[debug] [2020-08-16T08:13:09.013Z] Platform:      darwin
+[debug] [2020-08-16T08:13:09.013Z] Node Version:  v14.8.0
+[debug] [2020-08-16T08:13:09.014Z] Time:          Sun Aug 16 2020 13:43:09 GMT+0530 (India Standard Time)
+[debug] [2020-08-16T08:13:09.014Z] ----------------------------------------------------------------------
+[debug] [2020-08-16T08:13:09.014Z] 
+[debug] [2020-08-16T08:13:09.024Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-16T08:13:09.024Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/vaddv/Documents/learnings/react-apps/twitter-clone
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using twitter-clone-ed9b6. 
+[debug] [2020-08-16T08:13:12.651Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/twitter-clone-ed9b6  
+ 
+[debug] [2020-08-16T08:13:13.093Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 16 Aug 2020 08:13:13 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-08-16T08:13:20.079Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-08-16T08:13:20.176Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Sun, 16 Aug 2020 08:13:06 GMT","expires":"Sun, 16 Aug 2020 09:03:06 GMT","last-modified":"Thu, 13 Aug 2020 20:59:53 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"14","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[debug] [2020-08-16T08:13:23.528Z] Error: EACCES: permission denied, open '/Users/vaddv/Documents/learnings/react-apps/twitter-clone/.firebaserc'
+    at Object.openSync (fs.js:465:3)
+    at Object.writeFileSync (fs.js:1416:35)
+    at Config.writeProjectFile (/Users/vaddv/.nvm/versions/node/v14.8.0/lib/node_modules/firebase-tools/lib/config.js:155:8)
+    at /Users/vaddv/.nvm/versions/node/v14.8.0/lib/node_modules/firebase-tools/lib/commands/init.js:137:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-08-16T08:14:59.962Z] ----------------------------------------------------------------------
+[debug] [2020-08-16T08:14:59.964Z] Command:       /Users/vaddv/.nvm/versions/node/v14.8.0/bin/node /Users/vaddv/.nvm/versions/node/v14.8.0/bin/firebase init --debug
+[debug] [2020-08-16T08:14:59.964Z] CLI Version:   8.7.0
+[debug] [2020-08-16T08:14:59.964Z] Platform:      darwin
+[debug] [2020-08-16T08:14:59.964Z] Node Version:  v14.8.0
+[debug] [2020-08-16T08:14:59.965Z] Time:          Sun Aug 16 2020 13:44:59 GMT+0530 (India Standard Time)
+[debug] [2020-08-16T08:14:59.965Z] ----------------------------------------------------------------------
+[debug] [2020-08-16T08:14:59.966Z] 
+[debug] [2020-08-16T08:14:59.975Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-16T08:14:59.977Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/vaddv/Documents/learnings/react-apps/twitter-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using twitter-clone-ed9b6. 
+[debug] [2020-08-16T08:15:03.925Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/twitter-clone-ed9b6  
+ 
+[debug] [2020-08-16T08:15:04.471Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 16 Aug 2020 08:15:04 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-08-16T08:15:09.832Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-08-16T08:15:10.158Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Sun, 16 Aug 2020 08:13:06 GMT","expires":"Sun, 16 Aug 2020 09:03:06 GMT","last-modified":"Thu, 13 Aug 2020 20:59:53 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"124","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[debug] [2020-08-16T08:15:13.680Z] Error: EACCES: permission denied, open '/Users/vaddv/Documents/learnings/react-apps/twitter-clone/.firebaserc'
+    at Object.openSync (fs.js:465:3)
+    at Object.writeFileSync (fs.js:1416:35)
+    at Config.writeProjectFile (/Users/vaddv/.nvm/versions/node/v14.8.0/lib/node_modules/firebase-tools/lib/config.js:155:8)
+    at /Users/vaddv/.nvm/versions/node/v14.8.0/lib/node_modules/firebase-tools/lib/commands/init.js:137:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-08-16T08:15:48.080Z] ----------------------------------------------------------------------
+[debug] [2020-08-16T08:15:48.082Z] Command:       /Users/vaddv/.nvm/versions/node/v14.8.0/bin/node /Users/vaddv/.nvm/versions/node/v14.8.0/bin/firebase init --debug
+[debug] [2020-08-16T08:15:48.082Z] CLI Version:   8.7.0
+[debug] [2020-08-16T08:15:48.082Z] Platform:      darwin
+[debug] [2020-08-16T08:15:48.082Z] Node Version:  v14.8.0
+[debug] [2020-08-16T08:15:48.083Z] Time:          Sun Aug 16 2020 13:45:48 GMT+0530 (India Standard Time)
+[debug] [2020-08-16T08:15:48.083Z] ----------------------------------------------------------------------
+[debug] [2020-08-16T08:15:48.084Z] 
+[debug] [2020-08-16T08:15:48.094Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-16T08:15:48.095Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/vaddv/Documents/learnings/react-apps/twitter-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-08-16T08:15:52.713Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/twitter-clone-ed9b6  
+ 
+[debug] [2020-08-16T08:15:53.189Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 16 Aug 2020 08:15:53 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project twitter-clone-ed9b6 (twitter-clone) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-08-16T08:15:57.536Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-08-16T08:15:57.644Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Sun, 16 Aug 2020 08:13:06 GMT","expires":"Sun, 16 Aug 2020 09:03:06 GMT","last-modified":"Thu, 13 Aug 2020 20:59:53 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"171","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] ✔  Firebase initialization complete! 
+[debug] [2020-08-16T08:19:13.050Z] ----------------------------------------------------------------------
+[debug] [2020-08-16T08:19:13.052Z] Command:       /Users/vaddv/.nvm/versions/node/v14.8.0/bin/node /Users/vaddv/.nvm/versions/node/v14.8.0/bin/firebase deploy --debug
+[debug] [2020-08-16T08:19:13.052Z] CLI Version:   8.7.0
+[debug] [2020-08-16T08:19:13.052Z] Platform:      darwin
+[debug] [2020-08-16T08:19:13.052Z] Node Version:  v14.8.0
+[debug] [2020-08-16T08:19:13.053Z] Time:          Sun Aug 16 2020 13:49:13 GMT+0530 (India Standard Time)
+[debug] [2020-08-16T08:19:13.053Z] ----------------------------------------------------------------------
+[debug] [2020-08-16T08:19:13.053Z] 
+[debug] [2020-08-16T08:19:13.065Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-16T08:19:13.066Z] > authorizing via signed-in user
+[debug] [2020-08-16T08:19:13.067Z] [iam] checking project twitter-clone-ed9b6 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-08-16T08:19:13.070Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/twitter-clone-ed9b6:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-08-16T08:19:14.732Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 16 Aug 2020 08:19:14 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1294","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-16T08:19:14.734Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/twitter-clone-ed9b6  
+ 
+[debug] [2020-08-16T08:19:15.175Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 16 Aug 2020 08:19:15 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'twitter-clone-ed9b6'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-08-16T08:19:15.180Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/twitter-clone-ed9b6/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-08-16T08:19:17.595Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 16 Aug 2020 08:19:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[twitter-clone-ed9b6]: beginning deploy... 
+[info] i  hosting[twitter-clone-ed9b6]: found 18 files in build 
+[debug] [2020-08-16T08:19:17.605Z] [hosting] hash cache [YnVpbGQ] not populated
+[debug] [2020-08-16T08:19:18.138Z] [hosting] hash cache [YnVpbGQ] stored for 18 files
+[debug] [2020-08-16T08:19:18.139Z] [hosting][hash queue][FINAL] {"max":526,"min":10,"avg":44.05555555555556,"active":0,"complete":18,"success":18,"errored":0,"retried":0,"total":18,"elapsed":533}
+[debug] [2020-08-16T08:19:18.139Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/twitter-clone-ed9b6/versions/7062090a01238306:populateFiles  
+ <request body omitted>
+[info] i  hosting: adding files to version [0/18] (0%) 
+[debug] [2020-08-16T08:19:19.738Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 16 Aug 2020 08:19:19 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-16T08:19:19.749Z] [hosting][populate queue][FINAL] {"max":1603,"min":1603,"avg":1603,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1612}
+[debug] [2020-08-16T08:19:19.749Z] [hosting] uploads queued: 18
+[info] i  hosting: uploading new files [0/18] (0%) 
+[info] i  hosting: uploading new files [17/18] (94%) 
+[info] i  hosting: uploading new files [17/18] (94%) 
+[debug] [2020-08-16T08:19:25.685Z] [hosting][upload queue][FINAL] {"max":5945,"min":1954,"avg":2234.3888888888887,"active":0,"complete":18,"success":18,"errored":0,"retried":0,"total":18,"elapsed":5946}
+[info] ✔  hosting[twitter-clone-ed9b6]: file upload complete 
+[debug] [2020-08-16T08:19:25.686Z] [hosting] deploy completed after 8089ms
+[debug] [2020-08-16T08:19:25.812Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "twitter-clone-ed9b6"
+    },
+    "site": "twitter-clone-ed9b6",
+    "version": "sites/twitter-clone-ed9b6/versions/7062090a01238306"
+  }
+]
+[info] i  hosting[twitter-clone-ed9b6]: finalizing version... 
+[debug] [2020-08-16T08:19:25.813Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/twitter-clone-ed9b6/versions/7062090a01238306?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2020-08-16T08:19:27.528Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 16 Aug 2020 08:19:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-16T08:19:27.529Z] [hosting] finalized version for twitter-clone-ed9b6: {"name":"sites/twitter-clone-ed9b6/versions/7062090a01238306","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-08-16T08:19:16.699991Z","createUser":{"email":"vijay.vaddem@gmail.com"},"finalizeTime":"2020-08-16T08:19:27.309238Z","finalizeUser":{"email":"vijay.vaddem@gmail.com"}}
+[info] ✔  hosting[twitter-clone-ed9b6]: version finalized 
+[info] i  hosting[twitter-clone-ed9b6]: releasing new version... 
+[debug] [2020-08-16T08:19:27.530Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/twitter-clone-ed9b6/releases?version_name=sites/twitter-clone-ed9b6/versions/7062090a01238306  
+ {"message":null}
+[debug] [2020-08-16T08:19:29.029Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 16 Aug 2020 08:19:28 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-16T08:19:29.031Z] [hosting] release: {"name":"sites/twitter-clone-ed9b6/releases/1597565968327090","version":{"name":"sites/twitter-clone-ed9b6/versions/7062090a01238306","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-08-16T08:19:16.699991Z","createUser":{"email":"vijay.vaddem@gmail.com"},"finalizeTime":"2020-08-16T08:19:27.309238Z","finalizeUser":{"email":"vijay.vaddem@gmail.com"},"preview":{}},"type":"DEPLOY","releaseTime":"2020-08-16T08:19:28.327090952Z","releaseUser":{"email":"vijay.vaddem@gmail.com"}}
+[info] ✔  hosting[twitter-clone-ed9b6]: release complete 
+[info] 
+[info] ✔  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/twitter-clone-ed9b6/overview
+[info] Hosting URL: https://twitter-clone-ed9b6.web.app
